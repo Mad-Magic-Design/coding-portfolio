@@ -1,0 +1,58 @@
+/*:root {
+    --darker: #1F033D;
+    --dark: #35056B;
+    --light: #D4D20B;
+    --ligter: rgb(253, 252, 205);
+    --highlight: white;
+  }*/
+:root {
+    --darker: #35056B;
+    --dark: #62ecec;
+    --light: #D4D20B;
+    --lighter: rgb(253, 252, 205);
+    --highlight: #D4D20B;
+  }
+
+  body{
+    color:black;
+    background-color: var(--dark);
+  }
+
+  button{
+    background-color: var(--light);
+    color: var(--darker)
+  }
+
+
+  .darker{
+    background-color: var(--darker);
+  }
+
+  .dark{
+    background-color: var(--dark);
+  }
+
+  .light{
+    background-color: var(--light);
+  }
+
+  .portfolio-wrapper{
+    border-color: var(--lighter)
+  }
+
+  .portfolio-header{
+    background-color: var(--light);
+  }
+
+  .portfolio-header button{
+    color: var(--light);
+    background-color: var(--darker);
+  }
+  
+  .card-body{
+    background-color: white;
+  }
+
+  .info-header{
+    border-color: var(--highlight);
+  }
